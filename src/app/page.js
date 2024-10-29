@@ -1,9 +1,15 @@
 import Image from "next/image";
-import { BsLinkedin, BsGithub } from "react-icons/bs";
+import { BsLinkedin, BsGithub, BsInstagram } from "react-icons/bs";
 export default function Home() {
 
-// embaixo do nome as redes sociais //
-// embaixo das redes sociais uma breve descricao
+
+// to do 
+// arrumar o espacamento entre a borda da div da esquerda e os elementos internos 
+// add o espaco entre a foto e o nome 
+// add o espaco entre o nome e rede sociais 
+// entre a rede social e o paragrafo 
+// add a imagem(minha foto) dentro do circulo 
+// add o link para as redes sociais
 
   return (
     <> 
@@ -15,13 +21,14 @@ export default function Home() {
 
           <p className="text-purple-50 ">Luiz Gabriel Gomes</p>
         
-          <div>
+          <div className="flex gap-3">
             <BsLinkedin />
             <BsGithub />
+            <BsInstagram />
           </div>
           
           <div>
-            <p>Hi, my name is Luiz Gabriel Gomes and I'm a Front-end Software Engineer. This is my website, be welcome!</p>
+            <p className="text-purple-50">Hi, my name is Luiz Gabriel Gomes and I'm a Front-end Software Engineer. This is my website, be welcome!</p>
           </div>
         
         </div> 
