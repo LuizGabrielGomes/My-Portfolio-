@@ -1,8 +1,24 @@
 import Image from "next/image";
 import photo from "../../public/assets/foto.jpg";
 import { BsLinkedin, BsGithub, BsInstagram } from "react-icons/bs";
-
 import Link from "next/link"
+
+
+// secao de conteudo(direita)  
+// adicionar titulo 
+// adicionar secao about me: titulo da secao e paragrafo e breve descricao sobre mim 
+// adicionar secao hard skills: titulo da secao e lista com habilidades tecnicas 
+// html css javascript react next tailwind 
+
+// adicionar soft skill: titulo da secao e lista de habilidades comportamentais 
+
+// adicionar secao my project: imgagem do projeto de ingles e breve paragrafo explicando o projeto  
+
+
+
+
+
+
 
 export default function Home() {
 
@@ -27,8 +43,35 @@ export default function Home() {
         
         </div> 
 
-        <div className="bg-blue-950 w-4/5 h-full">
-        
+        <div className="bg-blue-950 w-4/5 h-full p-10 overflow-auto">
+
+          <h1 className="text-lime-100 flex justify-center text-4xl font-black mb-20"> My Curriculum </h1>
+          <h2 className="text-lime-100 text-2xl font-black">About me</h2>
+          <br></br>
+          
+          <h3>Trilingual professional with Italian and Brazilian citizenship
+          <br></br>
+          Currently studying web development with HTML, CSS, Javascript and React.
+          <br></br>
+          Driver license: Italian Driver’s License</h3>
+          <br></br>
+          
+          <h2 className="text-lime-100 text-2xl font-black">Hard skills</h2>
+          <br></br>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Javascript</li>
+          <li>React</li>
+          <li>Next.js</li>
+          <li>Tailwind</li>
+          <br></br>
+          
+          <h2 className="text-lime-100 text-2xl font-black">Soft skills</h2>
+          <br></br>
+          <li>Enthusiastic</li>
+          <li>Quick Learner</li>
+          <li>Excellent Communication Skills</li>
+          <li>Team Player</li>
 
         </div>
       </div>
@@ -36,3 +79,7 @@ export default function Home() {
   )
 
 }
+
+
+// display: flex;
+//     justify-content: center;
