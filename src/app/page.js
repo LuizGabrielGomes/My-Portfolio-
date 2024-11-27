@@ -38,7 +38,7 @@ export default function Home() {
           </div>
           
           <div>
-            <p className="text-purple-50 mx-6">Hi, my name is Luiz Gabriel Gomes and I am a Front-end Software Engineer. This is my website, be welcome!</p>
+            <p className="text-purple-50 mx-6 mb-8 ">Hi, my name is Luiz Gabriel Gomes and I am a Front-end Software Engineer. This is my website, be welcome!</p>
           </div>
         
         </div> 
