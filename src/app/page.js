@@ -25,8 +25,8 @@ export default function Home() {
   return (
     <> 
 
-      <div className="p-10 h-lvh bg-indigo-900 flex">
-        <div className="bg-blue-950 w-1/5 h-full flex flex-col items-center border-r-4 border-e-emerald-200	">
+      <div className="p-10 min-h-lvh bg-indigo-900 block sm:flex">
+        <div className="bg-blue-950 w-full min-h-full flex flex-col items-center border-b-4 border-emerald-200 sm:border-r-4 border-b-0 sm:w-1/5">
           <Image className="rounded-full bg-purple-500 w-40 h-40 mt-20" alt="gabriel's photos" src={photo} /> 
 
           <p className="text-purple-50 mt-3">Luiz Gabriel Gomes</p>
@@ -43,7 +43,7 @@ export default function Home() {
         
         </div> 
 
-        <div className="bg-blue-950 w-4/5 h-full p-10 overflow-auto">
+        <div className="bg-blue-950 w-full h-full p-10 overflow-auto sm:w-4/5">
 
           <h1 className="text-lime-100 flex justify-center text-4xl font-black mb-20"> My Curriculum </h1>
           <h2 className="text-lime-100 text-2xl font-black">About me</h2>
